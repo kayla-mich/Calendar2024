@@ -35,6 +35,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import com.google.ai.client.generativeai.GenerativeModel
 import com.example.calendar2024_2025.ui.theme.Calendar20242025Theme
 //this works
+//where i CODE
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -68,6 +69,10 @@ internal fun SummarizeRoute(
     })
 }
 
+@Composable
+fun HomeScreen(
+
+)
 @Composable
 fun SummarizeScreen(
     uiState: SummarizeUiState = SummarizeUiState.Initial,

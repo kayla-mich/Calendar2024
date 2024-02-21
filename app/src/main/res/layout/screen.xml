@@ -6,11 +6,24 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="318dp"
-        android:layout_height="126dp"
-        android:text="Hello"
-        android:textFontWeight="20"
+        android:id="@+id/homeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="         Lamar High School Calendar"
+        android:textColor="@color/black"
+        android:textFontWeight="50"
+        android:textSize="25sp"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:text="                        2024-2025"
+        android:textColor="@color/black"
+        android:textFontWeight="50"
+        android:textSize="25sp"
         android:visibility="visible"
         tools:visibility="visible" />
 </LinearLayout>

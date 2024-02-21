@@ -70,9 +70,9 @@ internal fun SummarizeRoute(
 }
 
 @Composable
-fun HomeScreen(
-
-)
+fun HomeScreen(){
+val 
+}
 @Composable
 fun SummarizeScreen(
     uiState: SummarizeUiState = SummarizeUiState.Initial,
